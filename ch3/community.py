@@ -1,6 +1,6 @@
 def to_celsius(f):
-    pass
-
+ f = 5/9 * (f - 32)
+ return(f)
 
 ## Don't touch below this line
 
