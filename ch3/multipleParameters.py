@@ -1,7 +1,9 @@
 def triple_attack(damage_one, damage_two, damage_three):
-    pass
-
-
+    a = damage_one       
+    b = damage_two
+    c = damage_three
+    total = a + b + c
+    return total
 # Don't touch below this line
 
 # This is the first triple attack
@@ -23,3 +25,4 @@ second_triple_attack_damage = triple_attack(attack_four, attack_five, attack_six
 print("Getting damage for", attack_four, attack_five, "and", attack_six, "...")
 print(second_triple_attack_damage, "points of damage dealt!")
 print("=====================================")
+
