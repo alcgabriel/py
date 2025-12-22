@@ -1,6 +1,7 @@
 def become_warrior(full_name, power):
-    pass
-
+    title = f"{full_name} the warrior"
+    new_power = power + 1
+    return title, new_power
 
 # Don't edit below this line
 
