@@ -1,7 +1,7 @@
 def curse(weapon_damage):
-    pass
-
-
+    lesser_curse = weapon_damage * 0.5
+    greater_cure = weapon_damage * 0.75
+    return lesser_curse, greater_cure
 # Don't modify below this line
 
 
@@ -21,3 +21,4 @@ def main():
 
 
 main()
+
