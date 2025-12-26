@@ -7,7 +7,7 @@ my_level = 10
 
 ## don't touch above this line
 
-max_health = get_max_health(modifier, level)
+max_health = get_max_health(5, 10)
 
 # don't touch below this line
 
