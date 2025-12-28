@@ -1,2 +1,3 @@
 def update_player_score(current_score, increment):
-    pass
+    new_score = current_score + increment
+    return new_score
