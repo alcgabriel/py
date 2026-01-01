@@ -1,6 +1,6 @@
 def main():
-    calculate_dps(8, 000, 000, 45)
-    calculate_dps(10, 000, 000, 49)
+    calculate_dps(8_000_000, 45)
+    calculate_dps(10_000_000, 49)
 
 
 # Don't edit below this line
