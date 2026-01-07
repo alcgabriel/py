@@ -1,2 +1,3 @@
 def does_attack_hit(attack_roll, armor_class):
-    pass
+    return (attack_roll >= armor_class) or (attack_roll != 1) or (attack_roll == 20)
+
