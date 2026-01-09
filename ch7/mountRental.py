@@ -1,2 +1,3 @@
 def check_mount_rental(time_used, time_purchased):
-    pass
+    if time_used >= time_purchased:
+        return "overtime charged"
