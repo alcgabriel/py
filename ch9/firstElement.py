@@ -1,2 +1,5 @@
 def get_first_item(items):
-    pass
+    if len(items) == 0:
+        return "ERROR"
+    else: 
+       return items[0]
