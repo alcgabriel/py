@@ -6,6 +6,7 @@ def get_leather_scraps():
         "Bread",
         "Shortsword",
     ]
+
     item_index = 1
 
     return inventory[item_index]
