@@ -5,8 +5,8 @@ def contains_leather_scraps(items):
 
     for item in items:
         if item == "Leather Scraps":
-            found = True
-    
+         found = True
     # don't touch below this line
 
     return found
+
