@@ -3,7 +3,6 @@ def check_character_levels():
     new_character_levels = [1, 42, 45, 54, 12, 3, 32, 38, 54, 32, 42]
 
     # don't touch above this line
-
     for i in range(0, len(old_character_levels)):
         if old_character_levels[i] < new_character_levels[i]:
             print(i)
