@@ -1,3 +1,4 @@
 def concatenate_favorites(favorite_weapons, favorite_armor, favorite_items):
-    favorites = favorite_weapons + favorite_armor + favorite_items
-    return favorites
+    favorite_things = []
+    favorite_things = favorite_weapons + favorite_armor + favorite_items
+    return favorite_things
