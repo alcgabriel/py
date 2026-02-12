@@ -16,13 +16,14 @@ def filter_messages(messages):
                # dang_words.append(dang_words)
             
             else:
-               good_words.append(word)
+               sentence = "".join(word)
+               good_words.append(sentence)
         filtered_msg.append(good_words)
         
             #print(good_words, 'goodlist')
            # print(sentence)
         filtered_count.append(len(dang_words))
     
-    filtered_count = len(dang_words)
+    filtered_count.append(len(dang_words))
    # print(filtered_count)
     return filtered_msg, filtered_count
