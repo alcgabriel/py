@@ -1,2 +1,4 @@
 def get_quest_status(progress):
-pass
+    print(progress["quests"]["bridge_run"])
+    status = progress["quests"]["bridge_run"]["status"]
+    return status
